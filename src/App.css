@@ -1,4 +1,4 @@
-.App {
+/* .App {
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
@@ -78,6 +78,122 @@ li {
 li h3 {
   margin: 0 0 10px;
   font-size: 1.25rem;
+  color: #333;
+}
+
+li p {
+  margin: 5px 0;
+  color: #555;
+}
+
+@media (min-width: 600px) {
+  form {
+    width: 400px;
+  }
+
+  ul {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+  }
+
+  li {
+    width: 100%;
+  }
+} */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #00b09b, #96c93d); /* Gradient from teal to light green */
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  color: #fff; /* Text color */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Blurred background */
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #00b09b; /* Change border color on focus */
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #00b09b; /* Primary button color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add transform effect */
+}
+
+button:hover {
+  background-color: #96c93d; /* Change button color on hover */
+  transform: scale(1.05); /* Slightly enlarge button */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: transform 0.3s ease; /* Add transform effect */
+}
+
+li:hover {
+  transform: translateY(-5px); /* Slightly lift the card on hover */
+}
+
+li h3 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
   color: #333;
 }
 

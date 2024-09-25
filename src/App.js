@@ -8,17 +8,38 @@ function App() {
 
   // List of skills for dropdown
   const skillOptions = [
-    'JavaScript', 
-    'Python', 
-    'Java', 
-    'React', 
-    'Node.js', 
-    'SQL', 
-    'Machine Learning', 
-    'Data Analysis', 
-    'HTML/CSS', 
-    'AWS', 
-    'Docker'
+    'AI',
+    'C++',
+    'CSS',
+    'DJANGO',
+    'EXCEL',
+    'FLASK',
+    'HADOOP',
+    'HTML',
+    'JAVA',
+    'JAVASCRIPT',
+    'LINUX',
+    'ML',
+    'MONGODB',
+    'MYSQL',
+    'NLTK',
+    'NODEJS',
+    'NUMPY',
+    'PANDAS',
+    'PHP',
+    'POWER BI',
+    'PYTHON',
+    'REACT',
+    'REACTJS',
+    'RUBY',
+    'SCALA',
+    'SELENIUM',
+    'SPARK',
+    'SQL',
+    'TABLEAU',
+    'TENSORFLOW',
+    'UI'
+
   ];
 
   const handleSkillChange = (index, value) => {
